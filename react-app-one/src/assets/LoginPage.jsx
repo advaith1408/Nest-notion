@@ -100,7 +100,7 @@ const LoginPage = () => {
 
   return (
     <div className="login-container">
-      <h1>WELCOME TO VNR NOTION</h1>
+      <h1>WELCOME TO NEST NOTION</h1>
       <h2>SIGN IN</h2>
       <input
         type="email"
