@@ -45,7 +45,7 @@ const NavigationPage = ({ children }) => {
       <div className="top-bar">
         <HiMenuAlt1 className="menu-icon" onClick={toggleSidebar} />
         <div className="header-links">
-          <p1> VNR NOTION </p1>
+          <p1> NEST NOTION </p1>
           <Link to="/home" className="nav-link">
             <FaHome /> Home
           </Link>
