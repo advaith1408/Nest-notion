@@ -22,7 +22,7 @@ const HomePage = () => {
     return (
         <div className="home-container">
             <header className="header">
-                <h1 className="title">VNR Notion</h1>
+                <h1 className="title">NEST Notion</h1>
                 {/* {userDetails && (
                     <div className="user-info">
                         <p>Branch: {userDetails.branchName}</p>
