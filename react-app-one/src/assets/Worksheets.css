@@ -1,0 +1,46 @@
+.worksheets-container {
+    padding: 20px;
+    padding-top: 100px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000; /* Solid black background */
+    width: 75rem;
+    min-height: calc(100vh - 60px);
+}
+
+.worksheets-container h1 {
+    color: #ffffff; /* White text */
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.worksheets-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.worksheets-material-card {
+    background-color: #1a1a1a; /* Dark gray for card background */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: #ffffff; /* White text */
+}
+
+.worksheets-material-card:hover {
+    transform: scale(1.05);
+    background-color: #333333; /* Slightly lighter gray on hover */
+}
+
+.worksheets-card-content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff; /* White text */
+}
+
+.worksheets-material-card:hover .worksheets-card-content h3 {
+    color: #ffffff; /* White text on hover */
+}

@@ -1,0 +1,105 @@
+body {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #1a1a1a; /* Dark black background */
+  width: 550px;
+  padding: 50px;
+  margin: 100px auto;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 40px;
+}
+
+h1 {
+  font-size: 26px;
+  color: #ffffff; /* White text */
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #e5e5e5; /* Light gray text */
+  margin-bottom: 25px;
+}
+
+input {
+  width: 85%;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #333333; /* Dark gray background for input */
+  font-size: 16px;
+  color: #ffffff; /* White text in input */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+input::placeholder {
+  color: #6c757d; /* Gray placeholder text */
+  transition: color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  background-color: #555555; /* Lighter gray background on focus */
+  color: #ffffff;
+}
+
+input:hover::placeholder {
+  color: #ededed; /* Light gray placeholder text on hover */
+  transform: translateX(5px); /* Slight movement on hover */
+}
+
+button {
+  width: 85%;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #444444; /* Dark gray button */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555555; /* Slightly lighter gray on hover */
+}
+
+button:last-child {
+  background-color: #555555; /* Slightly lighter gray for the last button */
+}
+
+button:last-child:hover {
+  background-color: #444444; /* Darker gray on hover */
+}
+
+/* Cards */
+.card {
+  background-color: #333333; /* Dark gray background for cards */
+  color: #ffffff; /* White text on cards */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect to make cards stand out */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* More prominent shadow on hover */
+  background-color: #444444; /* Slightly lighter gray on hover */
+}
+
+.card-content h3 {
+  font-size: 18px;
+  color: #ffffff; /* White text inside cards */
+}
+
+.card-content:hover h3 {
+  color: #e5e5e5; /* Light gray color on card hover */
+}

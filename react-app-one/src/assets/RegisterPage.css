@@ -1,0 +1,79 @@
+.register-container {
+  background-color: #1a1a1a; /* Dark black background */
+  width: 550px;
+  padding: 40px;
+  margin: 100px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  color: #ffffff; /* White text */
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #e5e5e5; /* Light gray text */
+  margin-bottom: 20px;
+}
+
+input {
+  width: 40%;
+  padding: 15px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333333; /* Dark gray input field */
+  font-size: 16px;
+  color: #ffffff; /* White text in input */
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 85%;
+}
+
+input::placeholder {
+  color: #ffffff; /* White placeholder text */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+input:focus::placeholder {
+  color: #f3f0f4; /* Change placeholder text color on focus */
+}
+
+button {
+  width: 85%;
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #444444; /* Dark gray button */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input:hover::placeholder {
+  color: #ededed; /* Change color on hover */
+  transform: translateX(5px); /* Move placeholder text slightly to the right */
+}
+
+button:hover {
+  background-color: #555555; /* Slightly lighter gray on hover */
+}
+
+button:last-child {
+  background-color: #555555; /* Slightly lighter gray for the last button */
+}
+
+button:last-child:hover {
+  background-color: #444444; /* Darker gray on hover */
+}
+
+input:focus {
+  outline: none;
+  background-color: #555555; /* Lighter gray on focus */
+}
